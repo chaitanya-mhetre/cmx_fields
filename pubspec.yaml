@@ -1,0 +1,31 @@
+name: cmx_fields
+description: A comprehensive Flutter input fields kit with smart, animated field types, a phone country picker with contact suggestions, password strength, OTP autofill, and a consistent themeable API across all fields.
+version: 0.0.1
+homepage: https://github.com/chaitanya-mhetre/cmx_fields
+repository: https://github.com/chaitanya-mhetre/cmx_fields
+issue_tracker: https://github.com/chaitanya-mhetre/cmx_fields/issues
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  phone_numbers_parser: ^9.0.0
+  fast_contacts: ^4.0.0
+  phone_number_hint: ^0.0.6
+  permission_handler: ^11.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+screenshots:
+  - description: Phone, country picker, password strength, OTP, card, and email fields.
+    path: screenshots/ss_1.png
+  - description: Email, OTP, card and date, tags, and autocomplete suggestions.
+    path: screenshots/ss_2.png
+
+flutter:
